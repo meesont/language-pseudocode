@@ -1,6 +1,7 @@
 'scopeName': 'source.pseudocode'
 'name': 'Pseudocode'
 'fileTypes': ['pseudo']
+'comments': 'start':'# '
 'patterns': [
   {
     'match': '(END)?FOR'
@@ -42,7 +43,13 @@
   {
     'match': 'string|int|float|map|list|set'
     'name': 'storage.type'
+   },
+   {
+     'match': 'OUTPUT'
+     'name': 'support.function'
+   },
+   {
+    'name': 'comment.line.example'
+    'match': '#.*$'
    }
 ]
-'comments':
-  'start': '# '
