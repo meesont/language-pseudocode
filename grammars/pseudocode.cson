@@ -44,3 +44,5 @@
     'name': 'storage.type'
    }
 ]
+'comments':
+  'start': '# '
