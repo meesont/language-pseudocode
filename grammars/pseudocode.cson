@@ -1,7 +1,7 @@
 'scopeName': 'source.pseudocode'
 'name': 'Pseudocode'
 'fileTypes': ['pseudo']
-'comments': 'start':'# '
+# 'comments': 'start':'# '
 'patterns': [
   {
     'match': '(END)?FOR'
@@ -19,6 +19,10 @@
     'match': '(END)?FUNCTION'
     'name': 'entity.name.function'
   },
+  {
+    'match': '(END)?SUBROUTINE'
+    'name': 'entity.name.function'
+  }
   {
     'match': 'RETURN'
     'name': 'keyword.control'
